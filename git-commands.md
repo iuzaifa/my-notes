@@ -1,0 +1,38 @@
+- `echo "# github-demo" >> README.md` Create a README file with project title
+- `git init` Initialize a new Git repository
+- `git add filename.txt` Stage a specific file for commit
+- `git add . ` Stage all files in the current directory
+- `git status` Show the status of staged/unstaged files
+- `git commit -m "message" ` Commit staged changes with a descriptive message
+- `git commit -am "message" ` Commit tracked + modified files directly (skips staging new files)
+- `git branch -m main  ` Rename current branch to 'main'
+- `git remote add origin https://github.com/username/repository_name.git` Link local repo to remote GitHub repository
+- `git push -u origin main ` Push 'main' branch to remote and set upstream tracking
+- `git log  ` Show detailed commit history
+- `git log --oneline ` Show compact commit history (one line per commit)
+- `git switch -c feature/login ` Create and switch to new branch 'feature/login'
+- `git push --set-upstream origin branch_name ` Push new branch to remote and set upstream
+- `git branch  ` List all local branches
+- `git branch -r ` List all remote branches
+- `git merge feature/login ` Merge 'feature/login' branch into current branch
+- `git pull` Fetch and merge latest changes from remote
+- `git config --global user.name "Your Name" ` Set global username for commits
+- `git config --global user.email "you@example.com" ` Set global email for commits
+- `git clone <repo-url>  ` Clone a repository into a new directory
+- `git fetch    ` Download objects and refs from remote (without merging)
+- `git diff      ` Show changes between working directory and staging area
+- `git reset <file>` Unstage a file (remove from staging area)
+- `git reset --hard  ` Reset working directory and staging area to last commit
+- `git rm <file> ` Remove file from working directory and staging area
+- `git stash  ` Temporarily save changes not ready to commit
+- `git stash pop ` Reapply stashed changes and remove from stash list
+- `git rebase <branch>` Reapply commits on top of another branch
+- `git checkout <commit-id> ` Switch to a specific commit (detached HEAD)
+- `git revert <commit-id>` Create a new commit that undoes changes from a specific commit
+- `git tag <tagname>` Create a tag for a specific commit (often for releases)
+- `git show <commit-id>`
+- `git pull --rebase ` Fetch + reapply commits (avoids merge commits)
+- `git branch -d branch_name` Delete a local branch (safe delete, prevents if not merged)
+- `git branch -D branch_name` Force delete a local branch (even if not merged)
+- `git push origin --delete branch_name` Delete a branch from the remote repository
+- `git push origin :branch_name` Alternative syntax to delete a remote branch
