@@ -1,0 +1,14 @@
+=> echo "# github-demo" >> 
+=> git init 
+=> git add filename.... 
+=> git add .
+=> git status
+=> git commit -m "......."
+=> git commit -am "......."
+=> git branch -m
+=> git remote add origin "https//github/username/repository_name"
+=> git push -u origin main
+=> git log
+=> git log --oneline
+=> git switch -c <?> feature/login 
+=> 
