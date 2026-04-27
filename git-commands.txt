@@ -11,4 +11,8 @@
 => git log
 => git log --oneline
 => git switch -c <?> feature/login 
-=> 
+=> git push --set-upstream origin [branch_name] 
+=> git branch 
+=> git branch -r
+
+
