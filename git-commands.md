@@ -5,7 +5,7 @@
 - `git status` Show the status of staged/unstaged files
 - `git commit -m "message" ` Commit staged changes with a descriptive message
 - `git commit -am "message" ` Commit tracked + modified files directly (skips staging new files)
-- `git branch -m main  ` Rename current branch to 'main'
+- `git branch -m main  ` Rename current branch to 'main' `Branch DTC-6766e5 to LTC-67P65e`
 - `git remote add origin https://github.com/username/repository_name.git` Link local repo to remote GitHub repository
 - `git push -u origin main ` Push 'main' branch to remote and set upstream tracking
 - `git log  ` Show detailed commit history
