@@ -1,3 +1,5 @@
+## GITHUB COMMANDS DESCRIPTION
+
 - `echo "# github-demo" >> README.md` Create a README file with project title
 - `git init` Initialize a new Git repository
 - `git add filename.txt` Stage a specific file for commit
