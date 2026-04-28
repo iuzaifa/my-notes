@@ -11,6 +11,7 @@
 - `git log  ` Show detailed commit history
 - `git log --oneline ` Show compact commit history (one line per commit)
 - `git switch -c feature/login ` Create and switch to new branch 'feature/login'
+- `git checkout -b givename_new_branch` Create a new branch and switch to it immediately.
 - `git push --set-upstream origin branch_name ` Push new branch to remote and set upstream
 - `git branch  ` List all local branches
 - `git branch -r ` List all remote branches
